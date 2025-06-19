@@ -3,12 +3,10 @@
 <head>
     <title>ECG Monitor Real-time</title>
     
-    <!-- Firebase CDN - Versi Compat -->
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+  
     
     <!-- Chart.js untuk grafik -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  
     
     <style>
         body { 
@@ -199,15 +197,7 @@
         // ==========================================
         // FIREBASE CONFIGURATION
         // ==========================================
-        const firebaseConfig = {
-            apiKey: "AIzaSyDUNQKLWwtR7Kv5SNR8ht3bdzD2qxj712Y",
-            authDomain: "ecg-monitor-112e0.firebaseapp.com",
-            databaseURL: "https://ecg-monitor-112e0-default-rtdb.asia-southeast1.firebasedatabase.app/",
-            projectId: "ecg-monitor-112e0",
-            storageBucket: "ecg-monitor-112e0.firebasestorage.app",
-            messagingSenderId: "855579345994",
-            appId: "1:855579345994:web:8e057443040cd9495c52b3"
-        };
+       
 
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
